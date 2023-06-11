@@ -1,0 +1,233 @@
+body {
+    color: #404E67;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/hero-bg.png) top center no-repeat;
+    background-size: cover;
+  }
+  
+  #neubar {
+    background: #ffffff;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.4);
+    width: auto;
+  }
+  
+  .nav-item .active {
+    border-radius: 6px;
+    background: linear-gradient(145deg, #dcdcdc, #d3d3d3);
+    box-shadow: 4px 4px 8px #a9a9a9,
+      -4px -4px 8px #a9a9a9;
+  }
+  
+  #neubar .dropdown-menu a:hover {
+    color: #808080
+  }
+  
+  #neubar .nav-item {
+    margin: auto 4px;
+  }
+  
+  #neubar a {
+  
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+  #neubar .dropdown-menu {
+    background: #c0c0c0
+  }
+  
+  a.navbar-brand {
+    color: #454545
+  }
+
+  .hero {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg.png) top center no-repeat;
+    background-size: cover;
+  }
+  
+  .hero h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #012970;
+  }
+  
+  .hero h2 {
+    color: #444444;
+    margin: 15px 0 0 0;
+    font-size: 26px;
+  }
+  
+  .hero .btn-get-started {
+    margin-top: 30px;
+    line-height: 0;
+    padding: 15px 40px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #4154f1;
+    box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+  }
+  
+  .hero .btn-get-started span {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  
+  .hero .btn-get-started i {
+    margin-left: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .hero .btn-get-started:hover i {
+    transform: translateX(5px);
+  }
+  
+  .hero .hero-img {
+    text-align: right;
+  }
+  
+  @media (min-width: 1024px) {
+    .hero {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .hero {
+      height: auto;
+      padding: 120px 0 60px 0;
+    }
+  
+    .hero .hero-img {
+      text-align: center;
+      margin-top: 80px;
+    }
+  
+    .hero .hero-img img {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      text-align: center;
+    }
+  
+    .hero h1 {
+      font-size: 32px;
+    }
+  
+    .hero h2 {
+      font-size: 24px;
+    }
+  
+    .hero .hero-img img {
+      width: 100%;
+    }
+  }
+  
+  .table-wrapper {
+    width: auto;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    border-radius: 10px;
+  }
+  
+  .table-title {
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+  }
+  
+  .table-title h2 {
+    margin: 6px 0 0;
+    font-size: 22px;
+  }
+  
+  .table-title .add-new {
+    float: right;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 100px;
+    border-radius: 50px;
+    line-height: 13px;
+  }
+  
+  .table-title .add-new i {
+    margin-right: 4px;
+  }
+  
+  table.table {
+    table-layout: fixed;
+  }
+  
+  table.table tr th,
+  table.table tr td {
+    border-color: #e9e9e9;
+  }
+  
+  table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  table.table th:last-child {
+    width: 100px;
+  }
+  
+  table.table td a {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    min-width: 24px;
+  }
+  
+  table.table td a.add {
+    color: #27C46B;
+  }
+  
+  table.table td a.edit {
+    color: #FFC107;
+  }
+  
+  table.table td a.delete {
+    color: #E34724;
+  }
+  
+  table.table td i {
+    font-size: 19px;
+  }
+  
+  table.table td a.add i {
+    font-size: 24px;
+    margin-right: -1px;
+    position: relative;
+    top: 3px;
+  }
+  
+  table.table .form-control {
+    height: 32px;
+    line-height: 32px;
+    box-shadow: none;
+    border-radius: 2px;
+  }
+  
+  table.table .form-control.error {
+    border-color: #f50000;
+  }
+  
+  table.table td .add {
+    display: none;
+  }
